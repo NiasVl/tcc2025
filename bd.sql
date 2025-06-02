@@ -1,0 +1,11 @@
+CREATE DATABASE server;
+
+USE server;
+
+CREATE TABLE tb_usuarios (
+ id INT AUTO_INCREMENT,
+ nome VARCHAR(30) NOT NULL,
+ email VARCHAR(100) NOT NULL,
+ senha INT NOT NULL,
+ PRIMARY KEY(id)
+);	
